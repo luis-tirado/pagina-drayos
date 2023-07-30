@@ -6,12 +6,16 @@
     <title>D'Rayos Joyería</title>
     <!-- Link de CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Link de SCSS -->
 
 </head>
 <body>
     <!-- Header con nav bar y botones a otros archivos-->
     <header>
+        <img src="img/logo-header.png" alt="Logo de Joyería">
+        <h1>JOYERIA D'RAYOS</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -23,8 +27,44 @@
             </ul>        
         </nav>
     </header>
+    
+    <!-- Sección con galería de fotos -->
+    <section id="galeria">
+    <div class="card" style="width: 15rem">
+        <img src="img/cartier.png" class="card-img-top" alt="Foto reloj galería">
+        <div class="card-body">
+          <h5 class="card-title">Relojes</h5>
+          <p class="card-text">Encuentra las mejores marcas de relojes a precio accesible.</p>
+          <a href="html/productos.html" class="btn btn-primary">Ver Relojes</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="img/anillo.png" class="card-img-top" alt="Foto anillo galería ">
+        <div class="card-body">
+          <h5 class="card-title">Anillos</h5>
+          <p class="card-text">Encuentra anillos para todo tipo de ocasión.</p>
+          <a href="html/productos.html" class="btn btn-primary">Ver Anillos</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="img/cadena.png" class="card-img-top" alt="Foto cadena galería">
+        <div class="card-body">
+          <h5 class="card-title">Cadenas</h5>
+          <p class="card-text">Diferentes cadenas para todo tipo de estilos.</p>
+          <a href="html/productos.html" class="btn btn-primary">Ver Cadenas</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="img/navaja.png" class="card-img-top" alt="Foto navaja galería">
+        <div class="card-body">
+          <h5 class="card-title">Victorinox</h5>
+          <p class="card-text">Somos orgullosos distribuidores de navajas Victorinox.</p>
+          <a href="html/productos.html" class="btn btn-primary">Ver Navajas</a>
+        </div>
+      </div>
+    </section>
 
-    <h1>Joyeria D'Rayos</h1>
-
+    <!-- Link JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

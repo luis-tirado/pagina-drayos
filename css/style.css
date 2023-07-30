@@ -35,6 +35,18 @@ header nav ul li a:hover{
     font-weight: bold;
 }
 
-#galeria{
+.galeria{
     display: flex;
+    margin-left: .75rem;
+    background-color: #f3f5f7;
+}
+
+.card{
+    margin: .75rem;
+    border: 1px solid black;
+}
+
+.card img{
+    height: 10rem;
+    width: 10rem;
 }

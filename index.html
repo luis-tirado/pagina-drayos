@@ -1,66 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'Rayos Joyería</title>
-    <!-- Link de CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Link de Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D'Rayos Joyería</title>
+  <!-- Link de CSS -->
+  <link rel="stylesheet" href="css/copia-seguridad.css">
+  <!-- Link de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Header con nav bar y botones a otros archivos-->
-    <header>
-        <img src="img/logo-header.png" alt="Logo de Joyería">
-        <h1>JOYERIA D'RAYOS</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <!-- Enlace interno a sección -->
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="html/productos.html">Productos</a></li>
-                <li><a href="html/ubicacion.html">Ubicación</a></li>
-                <li><a href="html/contacto.html">Contacto</a></li>
-            </ul>        
-        </nav>
-    </header>
-    
-    <!-- Sección con galería de fotos -->
-    <section id="galeria-1" class="galeria">
-    <div class="card" style="width: 15rem">
-        <img src="img/cartier.png" class="card-img-top" alt="Foto reloj galería">
-        <div class="card-body">
-          <h5 class="card-title">Relojes</h5>
-          <p class="card-text">Encuentra marcas de relojes a precio accesible.</p>
-          <a href="html/productos.html" class="btn btn-primary">Ver Relojes</a>
+  <!-- Header con nav bar y botones a otros archivos-->
+  <header>
+      <img src="img/logo-header.png" alt="Logo de Joyería">
+      <h1>JOYERIA D'RAYOS</h1>
+      <nav>
+          <ul>
+            <li>
+              <a class="icon-link icon-link-hover" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                </svg>
+                  Inicio
+              </a>
+            </li>
+              <!-- Enlace interno a sección -->
+            <li>
+              <a class="icon-link icon-link-hover" href="#nosotros">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>
+                Nosotros
+              </a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-hover" href="html/productos.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>                  </svg>
+                Productos
+              </a>
+            </li>                
+            <li>
+              <a class="icon-link icon-link-hover" href="html/ubicacion.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+                </svg>
+                Ubicación
+               </a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-hover" href="html/contacto.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                </svg>
+                Contacto
+              </a>
+            </li>
+          </ul>        
+       </nav>
+  </header>
+
+  <!-- Sección con galería de fotos con Bootstrap-->
+  <section id="galeria">
+      <div class="container-1-galeria">
+        <div class="card" style="width: 15rem">
+          <img src="img/cartier.png" class="card-img-top" alt="Foto reloj galería">
+          <div class="card-body">
+            <h5 class="text-center">Relojes</h5>
+            <p class="text-center">Encuentra marcas de relojes a precio accesible.</p>
+            <p class="text-center">
+              <a href="html/productos.html" class="btn btn-secondary">Ver Relojes</a>
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+          <img src="img/anillo.png" class="card-img-top" alt="Foto anillo galería ">
+          <div class="card-body">
+            <h5 class="text-center">Anillos</h5>
+            <p class="text-center">Encuentra anillos para todo tipo de ocasión.</p>
+            <p class="text-center">
+              <a href="html/productos.html" class="btn btn-secondary">Ver Anillos</a>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 15rem;">
-        <img src="img/anillo.png" class="card-img-top" alt="Foto anillo galería ">
-        <div class="card-body">
-          <h5 class="card-title">Anillos</h5>
-          <p class="card-text">Encuentra anillos para todo tipo de ocasión.</p>
-          <a href="html/productos.html" class="btn btn-primary">Ver Anillos</a>
+      <div class="container-2-galeria">
+        <div class="card" style="width: 15rem;">
+          <img src="img/cadena.png" class="card-img-top" alt="Foto cadena galería">
+          <div class="card-body">
+            <h5 class="text-center">Cadenas</h5>
+            <p class="text-center">Diferentes cadenas para todo tipo de estilos.</p>
+            <p class="text-center">
+              <a href="html/productos.html" class="btn btn-secondary">Ver Cadenas</a>
+            </p>
+          </div>
         </div>
-      </div>
-      </section>
-      <section id="galeria-2" class="galeria">
-      <div class="card" style="width: 15rem;">
-        <img src="img/cadena.png" class="card-img-top" alt="Foto cadena galería">
-        <div class="card-body">
-          <h5 class="card-title">Cadenas</h5>
-          <p class="card-text">Diferentes cadenas para todo tipo de estilos.</p>
-          <a href="html/productos.html" class="btn btn-primary">Ver Cadenas</a>
-        </div>
-      </div>
-      <div class="card" style="width: 15rem;">
-        <img src="img/navaja.png" class="card-img-top" alt="Foto navaja galería">
-        <div class="card-body">
-          <h5 class="card-title">Victorinox</h5>
-          <p class="card-text">Orgullosos distribuidores de navajas Victorinox.</p>
-          <a href="html/productos.html" class="btn btn-primary">Ver Navajas</a>
+        <div class="card" style="width: 15rem;">
+          <img src="img/navaja.png" class="card-img-top" alt="Foto navaja galería">
+          <div class="card-body">
+            <h5 class="text-center">Victorinox</h5>
+            <p class="text-center">Orgullosos distribuidores de navajas Victorinox.</p>
+            <p class="text-center">
+              <a href="html/productos.html" class="btn btn-secondary">Ver Navajas</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -70,26 +113,61 @@
       <p>
         <strong>¡Hola! Somos D'Rayos Joyería</strong>
         <br>
-        Mexicanus societas sumus quae qualitatem ornamenti
+        Somos una empresa mexicana distribuidora de joyería
         <br>
-        distributionis nostris clientibus praebet.
+        de calidad para nuestros clientes.
         <br>
-        Facimus ut unaquaeque pars fructuum
+        Nos aseguramos de que cada componente de nuestros
         <br>
-        nostrorum expectationi clientium occurreret.
+        productos cumplan con los estándares deseados.
       </p>
     </section>
 
     <!-- Sección de Servicios -->
     <section id="servicios">
       <div>
+        <div class="boton-servicios">
+          <a class="icon-link icon-link-hover" href="html/promociones.html">
+            Promociones
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+              <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+              <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="boton-servicios">
+          <a class="icon-link icon-link-hover" href="html/contacto.html">
+            Venta por Mayoreo
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+              <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+            </svg>
+          </a>
+        </div>
+      </div>          
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <span id="redes">
         <ul>
-          <li><a href="html/promociones.html">Promociones</a></li>
-          <li><a href="html/contacto.html">Venta por Mayoreo</a></li>
+          <li><a href="https://www.instagram.com/drayosjoyeria/" target="_blank"><img src="img/ig.png" alt="Icono Instagram" class="icono"></a></li>
+          <li><a href="https://www.facebook.com/drayosjoyerias" target="_blank"><img src="img/fb.png" alt="Icono Facebook" class="icono"></a></li>
+          <li><a href="html/contacto.html"><img src="img/what.png" alt="Icono Whatsapp" class="icono"></a></li>
+          <li><a href="html/contacto.html"><img src="img/email.png" alt="Icono E-mail" class="icono"></a></li>
+        </ul>
+      </span>
+      <span id="marca">
+        <p>
+          D'Rayos 2023 ©
+        </p>
+      </span>
+      <div id="tel-footer">
+        <ul>
+          <li><img src="img/tel-icono.png" alt="Icono telefono" class="icono"></li>
+          <li>(656) 608-4561</li>
         </ul>
       </div>
-      <img src="img/joyas.jpg" alt="Foto joyería ejemplo">
-    </section>
+    </footer>
 
     <!-- Link JavaScript de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

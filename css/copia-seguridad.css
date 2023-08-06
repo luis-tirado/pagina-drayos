@@ -4,7 +4,7 @@ header{
     display: flex;
     align-items: center;
     border-bottom: 2px solid black;
-    background-color: #ced8e0;
+    background-color: #c0c0c0;
 }
 header h1{
     font-size: 2.5rem;
@@ -27,6 +27,7 @@ header nav ul li{
 }
 
 header nav ul li a{
+    text-decoration: none;
     color: black;
 }
 
@@ -35,22 +36,10 @@ header nav ul li a:hover{
     font-weight: bold;
 }
 
-.galeria{
+#galeria{
     display: flex;
-    margin-left: .75rem;
-    background-color: #f3f5f7;
-}
-
-#galeria-1 .card{
-    margin: .75rem;
-    border: 2px solid black;
-    background-color: #f3f5f7;
-}
-
-#galeria-2 .card{
-    margin: .75rem;
-    border: 2px solid black;
-    background-color: #f3f5f7;
+    padding: 2rem;
+    background-color: #d7d7d7;
 }
 
 .card img{
@@ -61,20 +50,69 @@ header nav ul li a:hover{
 #nosotros{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    background-color: #ced8e0;
+    background-color: #c0c0c0;
     font-size: medium;
     text-align: center;
 }
 
-#servicios div{
-    display: inline-block;
+#servicios{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #d7d7d7;
 }
 
-#servicios div ul{
+#servicios .boton-servicios{
+    padding-left: 3rem;
+}
+#servicios a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem ;
+}
+
+#servicios a:hover{
+    color:#6558f5;
+}
+
+footer{
+    border-top: 2px solid black;
+    background-color: #c0c0c0;
+}
+
+footer span{
+    display: inline-block;
+    padding-top: 0.5rem;
+}
+
+footer span ul{
+    display: flex;
     list-style: none;
 }
 
-#servicios div ul li a{
-    text-decoration: none;
-    color: black;
+footer span ul li{
+    padding: 0.5rem;
+}
+
+.icono{
+    width: 2rem;
+}
+
+footer #marca p{
+    font-weight: 600;
+    padding-left: 26rem;
+    text-align: center;
+}
+
+footer #tel-footer{
+    display: inline-block;
+    padding-left: 25rem;
+}
+
+footer #tel-footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer #tel-footer ul li{
+    margin: .25rem;
 }

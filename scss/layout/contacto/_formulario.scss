@@ -1,0 +1,16 @@
+#formulario{
+    border-top: 2px solid black;
+    margin-inline: 10rem;
+    .textos{
+        display: inline-block;
+        ul{
+            list-style: none;
+            li{
+                padding: 1rem;
+            }
+        }
+    }
+    img{
+        width: 30%;
+    }
+}

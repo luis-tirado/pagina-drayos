@@ -1,118 +1,24 @@
 /* CSS de Proyecto */
 
-header{
+#favoritos .titulo{
     display: flex;
-    align-items: center;
+    justify-content: center;
     border-bottom: 2px solid black;
-    background-color: #c0c0c0;
-}
-header h1{
-    font-size: 2.5rem;
-    margin-left: .75rem;
-    margin-right: 3rem;
+    margin-inline: 10rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-header img{
-    height: 4.5rem;
-}
-
-header nav ul{
+#favoritos .subtitulo{
     display: flex;
-    list-style: none;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: x-large;
 }
 
-header nav ul li{
-    margin-inline: 3rem;
-    display: flex;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-header nav ul li a:hover{
-    color: #6558f5;
-    font-weight: bold;
-}
-
-#galeria{
-    display: flex;
-    padding: 2rem;
-    background-color: #d7d7d7;
-}
-
-.card img{
-    height: 10rem;
-    width: 10rem;
-}
-
-#nosotros{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    background-color: #c0c0c0;
-    font-size: medium;
-    text-align: center;
-}
-
-#servicios{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: #d7d7d7;
-}
-
-#servicios .boton-servicios{
-    padding-left: 3rem;
-}
-#servicios a{
-    text-decoration: none;
-    color: black;
-    padding: 2rem ;
-}
-
-#servicios a:hover{
-    color:#6558f5;
-}
-
-footer{
-    border-top: 2px solid black;
-    background-color: #c0c0c0;
-}
-
-footer span{
-    display: inline-block;
-    padding-top: 0.5rem;
-}
-
-footer span ul{
-    display: flex;
-    list-style: none;
-}
-
-footer span ul li{
-    padding: 0.5rem;
-}
-
-.icono{
-    width: 2rem;
-}
-
-footer #marca p{
-    font-weight: 600;
-    padding-left: 26rem;
-    text-align: center;
-}
-
-footer #tel-footer{
-    display: inline-block;
-    padding-left: 25rem;
-}
-
-footer #tel-footer ul{
-    display: flex;
-    list-style: none;
-}
-
-footer #tel-footer ul li{
-    margin: .25rem;
+.carousel-item img{
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }

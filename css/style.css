@@ -1,5 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icono-footer {
+  width: 2rem;
+}
+
 header {
-  color: #c0c0c0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+  background-color: #e6e6fa;
+}
+header img {
+  height: 7rem;
+  width: 25%;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin-inline: 3rem;
+  display: flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a a:hover {
+  color: #6558f5;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: 2px solid white;
+  background-color: #e6e6fa;
+}
+footer #redes {
+  display: inline-block;
+  padding-top: 0.5rem;
+}
+footer #redes ul {
+  display: flex;
+  list-style: none;
+}
+footer #redes ul li {
+  padding: 0.5rem;
+}
+footer #marca {
+  display: inline-block;
+  padding-left: 27rem;
+}
+footer #marca p {
+  font-weight: 600;
+  padding-inline: auto;
+  text-align: center;
+}
+footer #tel-footer {
+  display: inline-block;
+  padding-left: 25rem;
+}
+footer #tel-footer ul {
+  display: flex;
+  list-style: none;
+}
+footer #tel-footer ul li {
+  margin: 0.25rem;
+}
+footer #marca-contacto {
+  display: flex;
+  justify-content: center;
+}
+footer #marca-contacto p {
+  font-weight: 600;
+}
+
+#galeria {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#nosotros {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-color: #e6e6fa;
+  font-size: medium;
+  text-align: center;
+}
+
+#servicios {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: white;
+}
+#servicios .boton-servicios {
+  padding-left: 3rem;
+}
+#servicios .boton-servicios a {
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+}
+#servicios .boton-servicios a a:hover {
+  color: #6558f5;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  margin-inline: 10rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+#categorias .subtitulo {
+  border-top: 2px solid black;
+  margin-inline: 10rem;
+  font-weight: 500;
+}
+
+#sucursal .info-sucursal {
+  display: inline-block;
+  padding-left: 5rem;
+}
+#sucursal .mapa {
+  display: inline-block;
+  padding-left: 3rem;
+}
+#sucursal .mapa .mapita {
+  width: 35rem;
+  height: 30rem;
+}
+
+#horarios {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding-bottom: 1rem;
+  margin-inline: 10rem;
+}
+#horarios ul {
+  padding-left: 5rem;
+  list-style: none;
+}
+#horarios ul li {
+  margin: 1rem;
+}
+
+#fotos-sucursal img {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#contactanos ul {
+  list-style: none;
+}
+#contactanos ul li {
+  border-radius: 5px;
+  margin: 2rem;
+  padding: 1rem;
+  font-weight: 500;
+  background-color: #e6e6fa;
+}
+#contactanos ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#formulario {
+  border-top: 2px solid black;
+  margin-inline: 10rem;
+}
+#formulario .textos {
+  display: inline-block;
+}
+#formulario .textos ul {
+  list-style: none;
+}
+#formulario .textos ul li {
+  padding: 1rem;
+}
+#formulario img {
+  width: 30%;
+}
+
+#promociones {
+  padding-left: 10rem;
+  padding-top: 1rem;
+}
+#promociones .card img {
+  width: 20rem;
+  height: 20rem;
+}
+
+#galeria .card {
+  margin: 1rem;
+}
+#galeria .card img {
+  height: 10rem;
+  width: 10rem;
+  margin-inline: auto;
+}
+#galeria .card .card-body {
+  justify-content: center;
+}
+
+.carousel-item img {
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+
+#categorias .card {
+  margin: 1rem;
+}
+#categorias .card img {
+  height: 10rem;
+  width: 10rem;
+  margin-inline: auto;
+}
+#categorias .card h5 {
+  text-align: center;
+}
+#categorias .card .card-body {
+  justify-content: center;
+}
+
+#fotos-sucursal img {
+  width: 70%;
+  height: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */

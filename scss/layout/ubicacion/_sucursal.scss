@@ -1,0 +1,14 @@
+#sucursal{
+    .info-sucursal{
+        display: inline-block;
+        padding-left: 5rem;
+    }
+    .mapa{
+        display: inline-block;
+        padding-left: 3rem;
+        .mapita{
+            width: 35rem;
+            height: 30rem;
+        }   
+    }
+}

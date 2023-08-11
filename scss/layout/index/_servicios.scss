@@ -1,0 +1,17 @@
+#servicios{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $color-fondo;
+    .boton-servicios{
+        padding-left: 3rem;
+        a{
+            text-decoration: none;
+            color:black;
+            padding: 2rem;
+            a:hover{
+                color: $color-hover;
+            }
+        }
+    }
+
+}

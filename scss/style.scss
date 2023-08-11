@@ -1,5 +1,32 @@
-// Comentarios de SASS
+// Base
+@import './base/reset';
 
-header{
-    color: #c0c0c0;
-}
+// Variables
+@import './base/variables';
+
+// Layout
+@import './layout/header';
+@import './layout/footer';
+
+@import './layout/index/galeria';
+@import './layout/index/nosotros';
+@import './layout/index/servicios';
+
+@import './layout/titulos';
+
+@import './layout/productos/categorias';
+
+@import './layout/ubicacion/sucursal';
+@import './layout/ubicacion/horarios';
+@import './layout/ubicacion/fotos-sucursal';
+
+@import './layout/contacto/contactanos';
+@import './layout/contacto/formulario';
+
+@import './layout/promociones';
+
+// Componentes
+@import './componentes/cards-galeria';
+@import './componentes/carousel-productos';
+@import './componentes/cards-grid-productos';
+@import './componentes/carousel-ubicacion';

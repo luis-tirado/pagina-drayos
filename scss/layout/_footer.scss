@@ -1,0 +1,44 @@
+footer{
+    margin-top: 1rem;
+    border-top: 2px solid $color-bordes;
+    background-color: $color-primario;
+    #redes{
+        display: inline-block;
+        padding-top: 0.5rem;
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: 0.5rem;
+            }
+        }
+    }
+    #marca{
+        display: inline-block;
+        padding-left: 27rem;
+        p{
+            font-weight: 600;
+            padding-inline: auto;
+            text-align: center;
+        }
+    }
+    #tel-footer{
+        display: inline-block;
+        padding-left: 25rem;
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                margin: .25rem;
+            }
+        }
+    }
+    #marca-contacto{
+        display: flex;
+        justify-content: center;
+        p{
+            font-weight: 600;
+        }
+    }
+        
+}

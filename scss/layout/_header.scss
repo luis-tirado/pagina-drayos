@@ -1,29 +1,12 @@
 header{
     display: flex;
     align-items: center;
-    border-bottom: 2px solid $color-bordes;
+    border-bottom: 1px solid $color-bordes;
     background-color: $color-primario;
-    img{
-        height: 7rem;
-        width: 25%;
-    }
-
-    nav{
-        ul{
-            display: flex;
-            list-style: none;
-            li{
-                margin-inline: 3rem;
-                display: flex;
-                a{
-                    text-decoration: none;
-                    color: black;
-                    a:hover{
-                        color: $color-hover;
-                        font-weight: bold;
-                    }
-                }
-            }
+    a{
+        img{
+            height: 7rem;
+            width: 15rem;
         }
     }
 }

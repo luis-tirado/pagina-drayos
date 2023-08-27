@@ -10,5 +10,6 @@
   "dependencies": {
     "sass": "^1.65.1"
   },
+  "devDependencies": {},
   "description": ""
 }

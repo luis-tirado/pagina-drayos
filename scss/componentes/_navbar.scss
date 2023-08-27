@@ -1,0 +1,33 @@
+
+nav{
+    display: flex;;
+    margin-left: auto;
+    margin-right: auto;
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            margin-inline: 3rem;
+            display: flex;
+            a{
+                text-decoration: none;
+                color: black;
+                a:hover{
+                    color: $color-hover;
+                    font-weight: bold;
+                }
+            }
+            .dropdown-menu{
+                width: 11rem;
+                li{
+                    margin-left: 0;
+                    width: 10rem;
+                    a{
+                        width: 10rem;
+                        margin-left: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

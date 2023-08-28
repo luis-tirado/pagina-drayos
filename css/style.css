@@ -11,7 +11,7 @@
 header {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #d2d2d2;
   background-color: #e6e6fa;
 }
 header img {
@@ -37,7 +37,7 @@ header nav ul li a a:hover {
 
 footer {
   margin-top: 1rem;
-  border-top: 2px solid white;
+  border-top: 2px solid #d2d2d2;
   background-color: #e6e6fa;
 }
 footer #redes {
@@ -86,8 +86,8 @@ footer #marca-contacto p {
 }
 
 #nosotros {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid #d2d2d2;
+  border-bottom: 2px solid #d2d2d2;
   background-color: #e6e6fa;
   font-size: medium;
   text-align: center;

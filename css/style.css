@@ -98,16 +98,39 @@ footer #marca-contacto p {
   padding-bottom: 3rem;
   background-color: white;
 }
-#servicios .boton-servicios {
+#servicios .container-botones {
+  display: inline-block;
+}
+#servicios .container-botones .boton-servicios {
   padding-left: 3rem;
 }
-#servicios .boton-servicios a {
+#servicios .container-botones .boton-servicios a {
   text-decoration: none;
   color: black;
   padding: 2rem;
 }
-#servicios .boton-servicios a a:hover {
+#servicios .container-botones .boton-servicios a a:hover {
   color: #6558f5;
+}
+#servicios .container-animado {
+  display: inline-block;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  width: 23rem;
+  padding: 1rem;
+  margin-left: 16rem;
+}
+#servicios .container-animado img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+  height: 15rem;
+}
+#servicios .container-animado h5 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
 }
 
 .titulo {

@@ -2,16 +2,40 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: $color-fondo;
-    .boton-servicios{
-        padding-left: 3rem;
-        a{
-            text-decoration: none;
-            color:black;
-            padding: 2rem;
-            a:hover{
-                color: $color-hover;
+    .container-botones{
+        display: inline-block;
+        .boton-servicios{
+            padding-left: 3rem;
+            a{
+                text-decoration: none;
+                color:black;
+                padding: 2rem;
+                a:hover{
+                    color: $color-hover;
+                }
             }
+         }
+    }
+    .container-animado{
+        display: inline-block;
+        border: 1px solid #d2d2d2;
+        border-radius: 10px;
+        width: 23rem;
+        padding: 1rem;
+        margin-left: 16rem;
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 15rem;
+            height: 15rem;
+        }
+        h5{
+            display: flex;
+            justify-content: center;
+            padding-top: 1rem;
         }
     }
+
 
 }

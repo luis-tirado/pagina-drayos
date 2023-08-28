@@ -4,8 +4,8 @@ header{
     border-bottom: 2px solid $color-bordes;
     background-color: $color-primario;
     img{
-        height: 7rem;
-        width: 25%;
+        height: 8rem;
+        width: 17.5rem;
     }
 
     nav{
@@ -13,7 +13,7 @@ header{
             display: flex;
             list-style: none;
             li{
-                margin-inline: 3rem;
+                margin-inline: 2.5rem;
                 display: flex;
                 a{
                     text-decoration: none;
